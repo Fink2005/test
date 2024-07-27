@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 15px;
+}
+
+#why {
+  background-color: #f7f5f4;
+  height: 1000px;
+}
+
+#why h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+#slide-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#slide {
+  padding: 10px;
+}
+.item .container_item {
+  background-color: white;
+  border-radius: 16px;
+  height: 90%;
+  width: 92%;
+  position: relative;
+}
+.item {
+  background-color: #f7f5f4;
+  height: 400px;
+  box-shadow: 4px black;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  left: 70px;
+}
+
+.left {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.right {
+  margin-left: 10px;
+}
+h5 {
+  margin: 0;
+  font-size: 17px;
+}
+
+h6 {
+  margin: 0;
+  color: #333a64;
+  font-size: 16px;
+}
+
+.up {
+  padding: 40px;
+  max-width: 500px;
+}
+
+.image img {
+  width: 160px;
+  margin: 10px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.videone {
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 50px;
+}
+video {
+  border-radius: 15px;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.script h1 {
+  font-size: 52px;
+  font-weight: 510;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+i {
+  font-size: 15px;
+  margin-left: 4px;
+  line-height: 10px;
+}
+button {
+  font-size: 17px;
+  padding: 15px 30px;
+  background-color: #4358dc;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+  transition: all;
+}
+
+button:hover {
+  background-color: #6979e0;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon i {
+  font-size: 20px;
+  padding-right: 15px;
+  margin: 0;
+}
+.footer_left {
+  margin-left: 30px;
+}
+.footer_right {
+  margin-right: 100px;
+}
+li {
+  list-style: none;
+  font-size: 15px;
+  padding-top: 13px;
+}
+
+.container_footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_right {
+  display: flex;
+}
+footer a {
+  color: rgb(121, 125, 141);
+}
+
+hr {
+  width: 90%;
+  height: 0.1px;
+  background: gray;
+  color: white;
+  border-width: 0;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  margin: 0;
+}

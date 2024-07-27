@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel Example with Custom Buttons</title>
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom CSS -->
+    <style>
+      .owl-carousel .item {
+        margin: 3px;
+      }
+      .owl-carousel .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .owl-nav button {
+        background-color: #000; /* Black background */
+        color: #fff; /* White text */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Padding */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 16px; /* Font size */
+      }
+      .owl-nav button.owl-prev {
+        left: 0;
+      }
+      .owl-nav button.owl-next {
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Owl Carousel Example with Custom Buttons</h2>
+      <!-- Carousel -->
+      <div class="owl-carousel">
+        <div class="item">
+          <img
+            src="https://via.placeholder.com/800x400?text=Slide+1"
+            alt="Slide 1"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://via.placeholder.com/800x400?text=Slide+2"
+            alt="Slide 2"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://via.placeholder.com/800x400?text=Slide+3"
+            alt="Slide 3"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://via.placeholder.com/800x400?text=Slide+4"
+            alt="Slide 4"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Initialize Owl Carousel -->
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1, // Number of items to show
+          d
+          loop: true, // Loop through items
+          margin: 10, // Margin between items
+          autoplay: true, // Enable autoplay
+          autoplayTimeout: 3000, // Autoplay interval in milliseconds
+          autoplayHoverPause: true, // Pause on hover
+        });
+      });
+    </script>
+  </body>
+</html>
